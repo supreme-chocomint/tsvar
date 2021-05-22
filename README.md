@@ -45,10 +45,10 @@ In your code:
 from tsvar import AssociationMiner
 
 miner = AssociationMiner("path-to-file.tsv", export_to_tsv=True)
-rules = miner.mine(["Favorite Operators", "Age Group"], min_frequency=0.01, metric="confidence", metric_threshold=0.3)
+rules = miner.mine(["Favorite Operators", "Region"], min_frequency=0.01, metric="confidence", metric_threshold=0.3)
 ```
 
-This will return association rules regarding both Favorite Operators and/or Age Group values that occur in at least 1% of all entries and have a confidence of at least 30%. It will also export those rules as a TSV file, which you can open in Excel etc. 
+This will return association rules regarding both Favorite Operators and/or Region values that occur in at least 1% of all entries and have a confidence of at least 30%. It will also export those rules as a TSV file, which you can open in Excel etc.
 
 To search for rules based on specific value occurrences, or reorganize the rules, do something like this:
 
