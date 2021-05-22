@@ -10,7 +10,7 @@ Python 3.7+ (probably works on lower versions), Pandas and Mlxtend.
 
 ## Primer
 
-TsvAR is a generalization of the association miner in [bandori-2019-stats](https://github.com/supreme-chocomint/bandori-2019-stats). Therefore (like it's predecessor), it can create rules from input survey response data, such as:
+TsvAR is a generalization of the association rule miner in [bandori-2019-stats](https://github.com/supreme-chocomint/bandori-2019-stats). It can create rules from survey response data, such as:
 
 ```
 | Favorite Operators            | Gender | Region        |
@@ -20,7 +20,7 @@ TsvAR is a generalization of the association miner in [bandori-2019-stats](https
 | Perfumer,Mountain,Blemishine  | Female | Latin America |
 ```
 
-However, it can handle any data where each person (or thing) has a closed-set of categorical properties (e.g. social media profiles, networks in general), such as:
+... or from really any data where each person (or thing) has a closed-set of categorical properties (e.g. social media profiles, networks in general), such as:
 
 ```
 | Friends                  | Hobbies                      | Age Group | Invited |
